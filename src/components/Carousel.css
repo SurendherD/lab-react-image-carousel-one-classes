@@ -1,1 +1,62 @@
 /* write your carousel css in this file */
+
+.container{
+    width: 50%;
+    height: 800px;
+    border: 5px solid ghostwhite;
+}
+
+.backgroundimages{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+}
+.backwardArrow{
+    height: 100%;
+    display: grid;
+    grid-column-start:auto;
+    color: white;
+    cursor: pointer;
+    place-items: center;
+    background-color: black;
+    width: 5%;
+}
+
+.forwardArrow{
+    height: 100%;
+    display: grid;
+    grid-column-end: auto;
+    color: white;
+    cursor: pointer;
+    place-items: center;
+    background-color: black;
+    width: 5%;
+}
+
+.content{
+    font-family: Arial,sans-serif;
+    text-align: justify;
+    flex:75%;
+    display: grid;
+    text-align-last: center;
+}
+
+h1{
+    font-size: 5rem;
+    height: 30%;
+}
+
+p{
+    font-size: 2rem;
+    height: 10%;
+    margin-top: 40%;    
+}
+
+h1, p {
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
